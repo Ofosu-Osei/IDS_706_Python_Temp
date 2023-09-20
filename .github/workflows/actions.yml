@@ -22,7 +22,7 @@ jobs:
     # Set prefered Python versions
     strategy:
       matrix:
-        python-version: [3.9, 3.11]
+        python-version: [3.9, 3.11, 3.10.x]
 
     #Steps to define the execution of workflow
     steps:
